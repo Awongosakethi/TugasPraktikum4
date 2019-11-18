@@ -32,14 +32,14 @@ print("====================================================================")
 ```
 
 ## Penjelasan 
-1. Pertama kita membuat variable list kosong yang nantinya akan di inpukan dengan data yang diinginkan.
+1. Pertama kita membuat variable list kosong yang nantinya akan di inpukan dengan data yang diinginkan. Dan ```ulang = True``` digunakan untuk mengontrol pengulangan 
    ```
    nilai = []                                                                    # Berfungsi sebagai integer list
-   ```
-2. Setelah itu, kita membuat kondisi perulangan dan statement yang akan dijalankan ketika perulangan terjadi. Dan menulis perintah untuk memasukan data. Dan fungsi 'append' disini digunakan untuk menambahkan item di akhir list. 
-   ```
-   ulangi = True                                                                 # Statement true jika pengulangan kondisi bernilai benar
 
+   ulangi = True                                                                 # Statement true jika pengulangan kondisi bernilai benar
+   ```
+2. Setelah itu, kita membuat kondisi perulangan dan statement yang akan dijalankan ketika perulangan terjadi. Dan fungsi 'append' disini digunakan untuk menambahkan item di akhir list. 
+   ```
    while ulangi:                                                                 # Statement while untuk pengulangan
        nama = input("Masukan Nama: ")                                            # Menginputkan nama
        nim = input("Masukan NIM: ")                                              # Menginputkan NIM
@@ -50,7 +50,7 @@ print("====================================================================")
 
        nilai.append([nama, nim, int(tugas), int(uts), int(uas), int(akhir)])     # Gunakan fungsi append untuk menambahkan item di akhir list dan list menjadi rapih
    ```
-3. Berikutnya, setelah membuat perulangan, kita membuat statement untuk memberhentikan perulangan, dengan cara menginputkan 't' apabila diminta saat program dijalankan.
+3. Berikutnya, setelah membuat perulangan, kita membuat statement untuk memberhentikan perulangan, dengan cara menginputkan 't' apabila diminta saat program dijalankan. 't' akan membuat variable ```ulang = True``` menjadi ```ulang = False``` yang akan menghentikan pengulangan.
    ```
        if (input("tambah data lagi (y/t)?") == 't'):                             # Kondisi untuk menambahkan data atau tidak
            ulangi = False                                                        # Statement false untuk menghentikan pengulangan
