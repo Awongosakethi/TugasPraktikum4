@@ -38,7 +38,7 @@ print("====================================================================")
 
    ulangi = True                                                                 # Statement true jika pengulangan kondisi bernilai benar
    ```
-2. Setelah itu, kita membuat kondisi perulangan dan statement yang akan dijalankan ketika perulangan terjadi. Dan fungsi 'append' disini digunakan untuk menambahkan item di akhir list. 
+2. Setelah itu, kita membuat kondisi perulangan dan statement yang akan dijalankan ketika perulangan terjadi. Dan fungsi 'append' disini digunakan untuk menambahkan item di akhir list. Kita pun akan diminta untuk menginputkan nama, nim, nilai tugas, nilai uts, dan nilai uas lalu sistem akan menjumlahkan nilai tersebut dan menghasilkan nilai akhir, setelah di inputkan data tersebut akan masuk ke list 'nilai'.  
    ```
    while ulangi:                                                                 # Statement while untuk pengulangan
        nama = input("Masukan Nama: ")                                            # Menginputkan nama
