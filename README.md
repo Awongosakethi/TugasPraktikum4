@@ -55,7 +55,7 @@ print("====================================================================")
        if (input("tambah data lagi (y/t)?") == 't'):                             # Kondisi untuk menambahkan data atau tidak
            ulangi = False                                                        # Statement false untuk menghentikan pengulangan
    ```
-4. Terakhir kita membuat perintah untuk mencetak hasil dari yang di buat.
+4. Terakhir kita membuat perintah untuk mencetak hasil dari yang di buat. Dan menggunakan d,s,f untuk menyamakan sebuah tabel pada program yang ingin di cetak, dan juga mengurutkan variable dengan menggunakan format dan disambung dengan item agar mereka berurutan sehingga menjadi tabel yg sempurna.
    ```
    print("\nDaftar Nilai Mahasiswa: ")                                           # Format untuk mengetahui outputnya
    print("====================================================================")
@@ -68,4 +68,7 @@ print("====================================================================")
              .format(no=i, nama=item[0], nim=item[1], tugas=item[2], uts=item[3], uas=item[4], akhir=item[5]))
    print("====================================================================")
    ```
+
+## Output program
+![Output](https://user-images.githubusercontent.com/56240483/69316251-fb46a880-0c6a-11ea-9d66-001fd98c730b.png)
 
